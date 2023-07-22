@@ -29,16 +29,16 @@
           "type": "shell"
         },
         {
-          "background": "#516BEB",
+          "background": "#6f0077",
           "foreground": "#ffffff",
           "leading_diamond": "\ue0b2",
           "style": "diamond",
           "template": "\ue266 MEM: {{ round .PhysicalPercentUsed .Precision }}% | {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB \ue266 ",
-          "trailing_diamond": "<transparent,#516BEB>\ue0b2</>",
+          "trailing_diamond": "<transparent,#4d0253>\ue0b2</>",
           "type": "sysinfo"
         },
         {
-          "background": "#575656",
+          "background": "#361b36",
           "foreground": "#d6deeb",
           "leading_diamond": "\ue0b2",
           "properties": {
